@@ -1,6 +1,13 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
+    background:rgb(170, 165, 165);
+    
 }
 
 .cart-button {
@@ -29,6 +36,7 @@ header {
 }
 
 .goods-list {
+    margin:10px;
     display: flex;
     justify-content: space-around;
 }
